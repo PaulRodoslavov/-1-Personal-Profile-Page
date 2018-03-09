@@ -41,9 +41,6 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
-.name-height{
-  height:68px;
-}
 .nav .name {
     display: block;
     margin-right: auto;
@@ -104,8 +101,8 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-  width: 480px; 
   position: relative; 
+
 } 
 .location {
   background-color: rgba(128, 128, 128, 0.5);
@@ -191,8 +188,15 @@ a.social:hover {
   clear: both;
 }
 
+
+@media screen and (max-width: 576px){
+  .tag{
+    font-size: 1.3em;
+  }
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
+
   
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
