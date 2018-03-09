@@ -1,5 +1,5 @@
 @import "expirience.css";
-
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 /* Global Layout Set-up */
 * { 
   box-sizing: border-box;
@@ -46,14 +46,15 @@ a:hover {
     margin-right: auto;
     color: white;    
 }
-.name:hover .name-clear{
+
+/*.name:hover .name-clear{
   display: none;   
 } 
 .name:hover .name-hidden{
   opacity: 1;
   transition: .9s;
-}
-.name-hidden{
+}*/
+/*.name-hidden{
   display: block;
   position: absolute;
   padding: 0 20px 0 20px;
@@ -61,7 +62,7 @@ a:hover {
   top: 10px;
   color: #AF66D5;
   text-shadow: #4A036F 0 0 2px;
-}
+}*/
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -83,31 +84,42 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 20%;
+  /*border: 3px solid white;*/
   transition: all .5s;
+}
+header .profile-image-wrp{
+  width: 156px;
+  height: 156px;
+  border-radius: 20%;
+  border: 3px solid white;
+  margin: 0 auto;
+  background-color: rgba(255,255,255, 0.2);
+
+
 }
 header .profile-image:hover {
   /*transform: scale(1.1) rotate(3deg);*/
-  transform: translateX(15px) scale(1.1) rotate(-5deg);
+  transform: translateX(100px) translateY(60px)rotate(50deg);
 }
-.tag {
-  background-color: rgba(255,255,255, 0.2);
+.tag {  
   color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
-  margin: 10px auto;
-  position: relative; 
-
+  margin: 25px auto;
+  font-family: 'Gochi Hand', cursive;
 } 
 .location {
-  background-color: rgba(128, 128, 128, 0.5);
+  /*background-color: rgba(128, 128, 128, 0.5);*/
   color: yellow;
-
+}
+.tag.name{
+  border-radius: 43%;
+  background-color: rgba(255,255,255, 0.2);
 }
 .card {
   margin: 30px;
@@ -121,6 +133,7 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #00C4CC;
+  background: rgba(0,196,204, 0.1);
 }
 
 ul.skills {
@@ -190,8 +203,12 @@ a.social:hover {
 
 
 @media screen and (max-width: 576px){
-  .tag{
+  .tag.name{
     font-size: 1.3em;
+    margin: 15px auto 0;
+  }
+  .location{
+    margin: 0 auto 35px;
   }
 }
 /* Styles for larger screens */
