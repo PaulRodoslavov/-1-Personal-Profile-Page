@@ -1,4 +1,4 @@
-@import "expirience.css";
+@import "nav-pages.css";
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 /* Global Layout Set-up */
 * { 
@@ -47,22 +47,6 @@ a:hover {
     color: white;    
 }
 
-/*.name:hover .name-clear{
-  display: none;   
-} 
-.name:hover .name-hidden{
-  opacity: 1;
-  transition: .9s;
-}*/
-/*.name-hidden{
-  display: block;
-  position: absolute;
-  padding: 0 20px 0 20px;
-  opacity: 0;
-  top: 10px;
-  color: #AF66D5;
-  text-shadow: #4A036F 0 0 2px;
-}*/
 .nav li {
   padding: 5px 10px 10px 10px;
 }

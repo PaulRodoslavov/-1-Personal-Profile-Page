@@ -1,0 +1,58 @@
+/* Section Styles for Expirience*/
+
+.page-tittle{
+	color: #222;
+}
+.page-tittle h1 {
+	padding-top: 70px;
+	margin:0;
+}
+.project{
+	display: flex;
+	text-align: center;
+	position: space-around;
+}
+.picture{
+	margin-top: 30px;
+
+}
+.decrip{
+	margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+	border-bottom: 4px solid #ccc;
+	border-radius: 6px;
+	transition: all .5s;
+}
+
+/* Section Styles for Dreams*/
+
+.window{
+	width: 25%;
+	background: #fff;
+	border-top-right-radius: 5%;
+	border-top-left-radius: 5%;
+	}
+	.window:hover{
+		transform: translateX(-5px) translateY(-5px);
+		transition: .4s;
+		box-shadow: 10px 10px 0px -2px rgba(0,196,204, 1);
+		-webkit-box-shadow: 10px 10px 0px -2px rgba(0,196,204, 1);
+    	-moz-box-shadow: 10px 10px 0px -2px rgba(0,196,204, 1);
+	}
+
+.img-dreams{
+	width: 100%;
+	border-radius: 5%;
+}
+.text-wind{
+	text-align: left;
+}
+
+@media screen and (max-width: 720px) {
+	.text-wind{
+    font-size: 0.8em;
+	}
+}
