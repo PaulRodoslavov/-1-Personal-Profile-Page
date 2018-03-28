@@ -13,28 +13,37 @@
 	position: space-around;
 }
 .picture{
-	margin-top: 30px;
-
+	margin: auto;
+	width: 60%;
+}
+.picture img {
+	width: 100%;
 }
 .decrip{
-	margin: 30px;
+	margin: 15px auto;
     padding: 20px 40px 40px;
     max-width: 500px;
     text-align: left;
     background: #fff;
-	border-bottom: 4px solid #ccc;
+	border-bottom: 4px solid #7D2AE8;
 	border-radius: 6px;
-	transition: all .5s;
+	width: 75%;
+}
+.decrip:hover{
+	border-color: #00C4CC;
+  background: rgba(0,196,204, 0.1);
+}
+.prjcts-wrap{
+	margin-bottom: 15px;
 }
 
 /* Section Styles for Dreams*/
 
 .window{
 	width: 75%;
-    margin: 0 auto;
+    margin: 15px auto;
 	background: #fff;
-	border-top-right-radius: 5%;
-	border-top-left-radius: 5%;
+	border-radius: 5%;
 	}
 	.window:hover{
 		transform: translateX(-5px) translateY(-5px);
@@ -50,6 +59,7 @@
 }
 .text-wind{
 	text-align: left;
+	padding: 5px;
 }
 /*
 @media screen and (max-width: 720px) {

@@ -236,5 +236,11 @@ a.social:hover {
     margin: 40px auto;
   }
 
+  .decrip{
+    width: 50%;
+  }
+  .picture{
+    width: 35%;
+  }
 }
 
