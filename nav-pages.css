@@ -30,7 +30,8 @@
 /* Section Styles for Dreams*/
 
 .window{
-	width: 25%;
+	width: 75%;
+    margin: 0 auto;
 	background: #fff;
 	border-top-right-radius: 5%;
 	border-top-left-radius: 5%;
@@ -50,9 +51,9 @@
 .text-wind{
 	text-align: left;
 }
-
+/*
 @media screen and (max-width: 720px) {
 	.text-wind{
     font-size: 0.8em;
 	}
-}
+}*/
