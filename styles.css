@@ -185,6 +185,9 @@ a.social:hover {
   clear: both;
 }
 
+.act {
+  background: #7D2AE8;
+}
 
 @media screen and (max-width: 576px){
   .tag.name{
