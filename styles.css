@@ -10,7 +10,6 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
   background: #f7f5f0;
 }
 /* Link Styles */
@@ -46,7 +45,6 @@ a:hover {
     margin-right: auto;
     color: white;    
 }
-
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -56,7 +54,6 @@ a:hover {
 .nav a:hover {
   color: #999;
 }
-
 header {
   text-align: center;
   background: url('images/space-bg.jpg') no-repeat top center ;
@@ -68,12 +65,10 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  /*margin-top: 50px;*/
   width: 150px;
   height: 150px;
   border-radius: 20%;
-  /*border: 3px solid white;*/
-  transition: all .5s;
+  transition: .4s;
 }
 header .profile-image-wrp{
   width: 156px;
@@ -82,11 +77,8 @@ header .profile-image-wrp{
   border: 3px solid white;
   margin: 0 auto;
   background-color: rgba(255,255,255, 0.2);
-
-
 }
 header .profile-image:hover {
-  /*transform: scale(1.1) rotate(3deg);*/
   transform: translateX(100px) translateY(60px)rotate(50deg);
 }
 .tag {  
@@ -98,7 +90,6 @@ header .profile-image:hover {
   font-family: 'Gochi Hand', cursive;
 } 
 .location {
-  /*background-color: rgba(128, 128, 128, 0.5);*/
   color: yellow;
 }
 .tag.name{
@@ -119,12 +110,10 @@ header .profile-image:hover {
   border-color: #00C4CC;
   background: rgba(0,196,204, 0.1);
 }
-
 ul.skills {
   padding: 0;
   text-align: center;
 }
-
 .skills li {
   border-radius: 6px;
   display: inline-block;
@@ -133,32 +122,26 @@ ul.skills {
   padding: 5px 10px;
   margin: 2px;
 }
-
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
-
 footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
 }
-
 footer .copyright {
   top: -8px;
   font-size: .75em;
 }
-
 footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 footer ul li {
   display: inline-block;
 }
-
 a.social {
   display: inline-block;
   text-indent: -9999px;
@@ -184,9 +167,6 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-
-
-
 @media screen and (max-width: 576px){
   .tag.name{
     font-size: 1.3em;
@@ -199,7 +179,6 @@ a.social:hover {
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
-  
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
@@ -211,32 +190,24 @@ a.social:hover {
   .window{
     width: 25%;
   }
-
-
   header {
     min-height: 470px;
   }
-
   .nav {
     max-width: 1200px;
     padding: 0 30px;
   }
-
-
   main {
     padding-top: 20px;
   }
-
   main p {
     line-height: 1.6em;
   }
-
   footer {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
   }
-
   .decrip{
     width: 50%;
   }
