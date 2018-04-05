@@ -10,7 +10,6 @@
 // 		}
 
 
-
 var selectedTd = document.getElementById('nav_id').getElementsByTagName('a');
 var url = document.location.href;
 for (var i = 0; i < selectedTd.length; i++){
